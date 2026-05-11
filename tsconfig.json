@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "types": ["vitest/globals", "@types/react", "@types/react-dom"]
+  }
+}
